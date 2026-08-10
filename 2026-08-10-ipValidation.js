@@ -17,9 +17,6 @@ Leading zeros (e.g. 01.02.03.04) are considered invalid
 Inputs are guaranteed to be a single string
 */
 
-const { describe, it } = require('node:test');
-const assert = require('node:assert/strict');
-
 function isValidIP(str) {
   // length check:
   // str.split('.').length !== 4 return false; else continue
